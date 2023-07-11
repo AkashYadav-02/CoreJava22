@@ -1,0 +1,32 @@
+package com.aurionpro.test;
+
+public class incrementArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		 int arr[]=new int[] {10,20,30,40,50};
+		 System.out.println("Before calling method array  is : ");
+		 for(int i:arr) {
+			 System.out.print(i+" ");
+		 }
+		 
+		 
+		 int number= incrementByOne(arr);
+		 System.out.println("\nAfter calling method number is :  " +number);
+		
+
+	}
+	private static  int  incrementByOne(int[] number){
+		
+		int sum=0;
+		for(int i=0;i<number.length;i++) {
+			number[i]++;
+			sum+=number[i];
+			
+		}
+		
+		 return sum;
+	}
+
+}

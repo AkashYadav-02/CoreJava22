@@ -1,0 +1,29 @@
+package com.aurionpro.test;
+
+import java.util.Scanner;
+
+import com.aurionpro.model.Rectangle;
+
+public class RectangleTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc=new Scanner(System.in);
+		
+		System.out.println("Enter Hight and width of Rectangle  Respectively:");
+		double height =sc.nextDouble();
+		double width=sc.nextDouble();
+		
+		Rectangle obj=new Rectangle();
+		obj.height=height;
+		obj.width=width;
+		Rectangle obj2=new Rectangle();
+		 System.out.println("Area of Rectangle is :"+ obj.area());
+		 System.out.println("Perimeter of Rectangle is :"+ obj2.perimeter());
+		 
+		 sc.close();
+
+	}
+
+}

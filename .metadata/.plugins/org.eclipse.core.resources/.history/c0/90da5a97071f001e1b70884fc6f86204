@@ -1,0 +1,19 @@
+package com.aurionpro.test;
+
+import com.aurionpro.model.Rectangle;
+
+public class RectangleTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Rectangle obj=new Rectangle();
+		obj.height=10;
+		obj.width=20;
+		
+		 System.out.println("Area of Rectangle is :"+ obj.area(obj.height,obj.width));
+		 System.out.println("Perimeter of Rectangle is :"+ obj.perimeter(obj.height,obj.width));
+		 
+
+	}
+
+}
