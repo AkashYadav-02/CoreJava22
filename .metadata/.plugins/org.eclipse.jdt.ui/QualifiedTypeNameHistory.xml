@@ -6,4 +6,6 @@
 <fullyQualifiedTypeName name="com.aurionpro.model.GuessGame"/>
 <fullyQualifiedTypeName name="com.aurionpro.model.Account"/>
 <fullyQualifiedTypeName name="com.aurionpro.model.AccountType"/>
+<fullyQualifiedTypeName name="com.aurionpro.model.Player"/>
+<fullyQualifiedTypeName name="com.aurionpro.model.Country"/>
 </qualifiedTypeNameHistroy>
