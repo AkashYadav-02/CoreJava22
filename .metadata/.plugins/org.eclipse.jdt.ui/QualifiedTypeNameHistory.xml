@@ -4,4 +4,6 @@
 <fullyQualifiedTypeName name="com.aurionpro.model.Rectangle"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="com.aurionpro.model.GuessGame"/>
+<fullyQualifiedTypeName name="com.aurionpro.model.Account"/>
+<fullyQualifiedTypeName name="com.aurionpro.model.AccountType"/>
 </qualifiedTypeNameHistroy>

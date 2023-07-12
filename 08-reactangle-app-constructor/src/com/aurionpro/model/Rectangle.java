@@ -18,7 +18,24 @@ public class Rectangle {
 			}
 		 
 	 }
-	
+	  public Rectangle()
+		 {
+			
+			 this(0,0,ColourType.RED);
+		 }
+		 
+		 
+		  public  Rectangle(double height,double width){
+			 this(height,width,ColourType.RED);
+			 
+		 }
+		  public Rectangle(double height,double width,ColourType colour){
+				 this.height=height;
+				 this.width=width;
+				 this.colour=colour;
+				 
+			 }
+		 
 	 
 	 public ColourType getColour() {
 		return colour;
