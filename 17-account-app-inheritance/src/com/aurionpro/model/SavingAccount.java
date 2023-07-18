@@ -16,5 +16,9 @@ public class SavingAccount extends Account {
 		super.setBalance(super.getBalance()-amount);
 		return true;
 	}
+	
+	public void print() {
+		System.out.println(super.get);
+	}
 
 }
