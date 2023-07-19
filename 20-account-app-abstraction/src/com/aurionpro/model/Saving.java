@@ -1,6 +1,7 @@
 package com.aurionpro.model;
 
 public class Saving  extends Account{
+	private double MIN_BALANCE=1000;
   
 	public Saving(int id, String name, double balance,AccountType account) {
 		super(id, name, balance,account);

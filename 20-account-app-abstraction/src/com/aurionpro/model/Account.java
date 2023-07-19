@@ -18,9 +18,6 @@ public abstract class Account {
 	
 	}
 
-	public static int getCount() {
-		return count;
-	}
 
 	public int getId() {
 		return id;
@@ -46,15 +43,10 @@ public abstract class Account {
 		this.balance = balance;
 	}
 
-	public static void setCount(int count) {
-		Account.count = count;
-	}
+	public abstract   boolean withdraw();
+	
 
-	public boolean withdraw() {
-		
-		
-	}
-
+	
 	
 	
 	
