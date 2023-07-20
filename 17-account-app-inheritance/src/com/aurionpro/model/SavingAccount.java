@@ -17,8 +17,5 @@ public class SavingAccount extends Account {
 		return true;
 	}
 	
-	public void print() {
-		System.out.println(super.get);
-	}
 
 }

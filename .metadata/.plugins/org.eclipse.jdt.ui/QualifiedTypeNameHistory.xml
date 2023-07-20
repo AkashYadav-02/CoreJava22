@@ -3,15 +3,12 @@
 <fullyQualifiedTypeName name="com.aurionpro.model.Rectangle"/>
 <fullyQualifiedTypeName name="com.aurionpro.model.GuessGame"/>
 <fullyQualifiedTypeName name="com.aurionpro.model.AccountType"/>
-<fullyQualifiedTypeName name="com.aurionpro.model.Player"/>
 <fullyQualifiedTypeName name="com.aurionpro.model.Country"/>
 <fullyQualifiedTypeName name="com.aurionpro.model.Account"/>
 <fullyQualifiedTypeName name="com.aurionpro.model.Customer"/>
 <fullyQualifiedTypeName name="com.aurionpro.model.Child"/>
 <fullyQualifiedTypeName name="com.aurionpro.model.PigGame2"/>
 <fullyQualifiedTypeName name="com.aurionpro.model.Kid"/>
-<fullyQualifiedTypeName name="com.aurionpro.model.Man"/>
-<fullyQualifiedTypeName name="com.aurionpro.model.Boy"/>
 <fullyQualifiedTypeName name="com.aurionpro.model.Saving"/>
 <fullyQualifiedTypeName name="com.aurionpro.model.Current"/>
 <fullyQualifiedTypeName name="com.aurionpro.model.BmiCalculator"/>
@@ -29,9 +26,19 @@
 <fullyQualifiedTypeName name="com.aurionpro.model.Employee"/>
 <fullyQualifiedTypeName name="com.aurionpro.model.Person"/>
 <fullyQualifiedTypeName name="com.aurionpro.model.Student"/>
-<fullyQualifiedTypeName name="java.time.LocalDate"/>
 <fullyQualifiedTypeName name="com.aurionpro.model.Professor"/>
 <fullyQualifiedTypeName name="com.aurionpro.model.OrderRepositry"/>
 <fullyQualifiedTypeName name="com.aurionpro.model.IRepositry"/>
 <fullyQualifiedTypeName name="com.aurionpro.model.ProductRepositry"/>
+<fullyQualifiedTypeName name="com.aurionpro.model.Man"/>
+<fullyQualifiedTypeName name="com.aurionpro.model.Boy"/>
+<fullyQualifiedTypeName name="com.aurionpro.model.IMannerable"/>
+<fullyQualifiedTypeName name="com.aurionpro.model.IEmotionable"/>
+<fullyQualifiedTypeName name="java.time.LocalDate"/>
+<fullyQualifiedTypeName name="com.aurionpro.model.Car"/>
+<fullyQualifiedTypeName name="com.aurionpro.model.Bus"/>
+<fullyQualifiedTypeName name="com.aurionpro.model.Bike"/>
+<fullyQualifiedTypeName name="com.aurionpro.model.Vehicle"/>
+<fullyQualifiedTypeName name="com.aurionpro.model.Player"/>
+<fullyQualifiedTypeName name="com.aurionpro.model.ClasifyPlayers"/>
 </qualifiedTypeNameHistroy>

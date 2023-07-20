@@ -1,6 +1,8 @@
 package com.aurionpro.test;
 
-import java.time.LocalDate;
+
+
+import java.lang.reflect.Method;
 
 import com.aurionpro.model.IRepositry;
 import com.aurionpro.model.OrderRepositry;
@@ -12,29 +14,25 @@ public class CollegeTest {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
-	  IRepositry [] od= {
-			  new OrderRepositry(),
-		      new ProductRepositry(),
-	  };
-	  
-	  
-	  
-	  
-	  
-		
-		
-
+//	
+//			OrderRepositry obj1 =new OrderRepositry();
+//			ProductRepositry obj2=new ProductRepositry();
+//			dbOperations(obj1);
+//			dbOperations(obj2);
+//		}
+//
+//		private static void dbOperations(IRepositry repo) {
+//			repo.create();
+//			repo.read();
+//			repo.update();
+//			repo.delete();
+//			
+//		}
+		Method[] methods = OrderRepositry.class.getMethods();
+		for(Method m : methods) {
+			System.out.println(m);
+		}
 	}
-	
-	public static void print( IRepositry []  od ) {
-		  for( IRepositry i : od)
-		  {
-			  i.create();
-			  i.delete();
-			  i.read();
-			  i.update();
-		  }
 	}
 
-}
+

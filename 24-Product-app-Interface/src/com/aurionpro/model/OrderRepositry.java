@@ -15,7 +15,7 @@ public class OrderRepositry implements IRepositry {
 	
 	public  void delete() {
 		System.out.println("Order Deleted");
-		
+	
 	}
 	@Override
 	public  void update() {
