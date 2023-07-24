@@ -4,7 +4,6 @@
 <fullyQualifiedTypeName name="com.aurionpro.model.GuessGame"/>
 <fullyQualifiedTypeName name="com.aurionpro.model.AccountType"/>
 <fullyQualifiedTypeName name="com.aurionpro.model.Country"/>
-<fullyQualifiedTypeName name="com.aurionpro.model.Account"/>
 <fullyQualifiedTypeName name="com.aurionpro.model.Customer"/>
 <fullyQualifiedTypeName name="com.aurionpro.model.Child"/>
 <fullyQualifiedTypeName name="com.aurionpro.model.PigGame2"/>
@@ -41,4 +40,10 @@
 <fullyQualifiedTypeName name="com.aurionpro.model.Vehicle"/>
 <fullyQualifiedTypeName name="com.aurionpro.model.Player"/>
 <fullyQualifiedTypeName name="com.aurionpro.model.ClasifyPlayers"/>
+<fullyQualifiedTypeName name="com.aurionpro.model.exception.InsufficentBalanceException"/>
+<fullyQualifiedTypeName name="com.aurionpro.model.Acount"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.aurionpro.model.Account"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
 </qualifiedTypeNameHistroy>
