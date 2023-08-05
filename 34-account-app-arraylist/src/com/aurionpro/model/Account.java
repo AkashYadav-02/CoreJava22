@@ -89,10 +89,7 @@ public class Account implements Comparable<Account> {
 	public String toString() {
 		return "\nAccount [id=" + id + ", name=" + name + ", balance=" + balance + "]";
 	}
-	@Override
-	public String toString() {
-		return "\nAccount [id=" + id + ", name=" + name + ", balance=" + balance + "]";
-	}
+	
 
 	@Override
 	public int compareTo(Account o) {
