@@ -3,7 +3,6 @@
 <fullyQualifiedTypeName name="com.aurionpro.model.Rectangle"/>
 <fullyQualifiedTypeName name="com.aurionpro.model.GuessGame"/>
 <fullyQualifiedTypeName name="com.aurionpro.model.AccountType"/>
-<fullyQualifiedTypeName name="com.aurionpro.model.Country"/>
 <fullyQualifiedTypeName name="com.aurionpro.model.Customer"/>
 <fullyQualifiedTypeName name="com.aurionpro.model.Child"/>
 <fullyQualifiedTypeName name="com.aurionpro.model.PigGame2"/>
@@ -11,7 +10,6 @@
 <fullyQualifiedTypeName name="com.aurionpro.model.Saving"/>
 <fullyQualifiedTypeName name="com.aurionpro.model.Current"/>
 <fullyQualifiedTypeName name="com.aurionpro.model.BmiCalculator"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="com.aurionpro.model.BorderType"/>
 <fullyQualifiedTypeName name="com.aurionpro.model.Circle"/>
 <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
@@ -24,7 +22,6 @@
 <fullyQualifiedTypeName name="com.aurionpro.model.Accountant"/>
 <fullyQualifiedTypeName name="com.aurionpro.model.Employee"/>
 <fullyQualifiedTypeName name="com.aurionpro.model.Person"/>
-<fullyQualifiedTypeName name="com.aurionpro.model.Student"/>
 <fullyQualifiedTypeName name="com.aurionpro.model.Professor"/>
 <fullyQualifiedTypeName name="com.aurionpro.model.OrderRepositry"/>
 <fullyQualifiedTypeName name="com.aurionpro.model.IRepositry"/>
@@ -42,8 +39,18 @@
 <fullyQualifiedTypeName name="com.aurionpro.model.ClasifyPlayers"/>
 <fullyQualifiedTypeName name="com.aurionpro.model.exception.InsufficentBalanceException"/>
 <fullyQualifiedTypeName name="com.aurionpro.model.Acount"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="com.aurionpro.model.Account"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.aurionpro.model.Student"/>
 <fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="java.util.Comparator"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.aurionpro.model.ListItem"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.aurionpro.model.Country"/>
+<fullyQualifiedTypeName name="java.util.HashSet"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
 </qualifiedTypeNameHistroy>

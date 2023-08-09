@@ -39,7 +39,7 @@ public class Arraylist {
 		 list.forEach(System.out::println);
 		 
 		 System.out.println( list.equals(list2));
-		 list.
+		 
 		 
 
 	}
