@@ -2,7 +2,6 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="com.aurionpro.model.Rectangle"/>
 <fullyQualifiedTypeName name="com.aurionpro.model.GuessGame"/>
-<fullyQualifiedTypeName name="com.aurionpro.model.AccountType"/>
 <fullyQualifiedTypeName name="com.aurionpro.model.Customer"/>
 <fullyQualifiedTypeName name="com.aurionpro.model.Child"/>
 <fullyQualifiedTypeName name="com.aurionpro.model.PigGame2"/>
@@ -39,11 +38,9 @@
 <fullyQualifiedTypeName name="com.aurionpro.model.ClasifyPlayers"/>
 <fullyQualifiedTypeName name="com.aurionpro.model.exception.InsufficentBalanceException"/>
 <fullyQualifiedTypeName name="com.aurionpro.model.Acount"/>
-<fullyQualifiedTypeName name="com.aurionpro.model.Account"/>
 <fullyQualifiedTypeName name="com.aurionpro.model.Student"/>
 <fullyQualifiedTypeName name="java.util.Collections"/>
 <fullyQualifiedTypeName name="java.util.Comparator"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="com.aurionpro.model.ListItem"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="java.util.HashMap"/>
@@ -56,6 +53,10 @@
 <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
 <fullyQualifiedTypeName name="com.aurionpro.model.Genric"/>
 <fullyQualifiedTypeName name="com.aurionpro.model.Reactangle"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.aurionpro.model.Account"/>
+<fullyQualifiedTypeName name="com.aurionpro.model.AccountType"/>
 </qualifiedTypeNameHistroy>
