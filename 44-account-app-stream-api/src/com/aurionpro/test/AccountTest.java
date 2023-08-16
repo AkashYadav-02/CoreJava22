@@ -44,7 +44,7 @@ public class AccountTest {
    
    
 // filter based on balance >100000
-   
+   	
     accounts.stream().filter((account)->account.getBalance()<100000).
     forEach(System.out::println);   
     
