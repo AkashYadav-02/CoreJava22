@@ -66,23 +66,11 @@ public class EmployeeService implements Serializable {
 		Map<Integer, Long> employeeCountByDepartment = employee.stream()
 				.collect(Collectors.groupingBy(Employee::getDeptId, TreeMap::new, Collectors.counting()));
 		employeeCountByDepartment
-				.forEach((department, count) -> System.out.printf("%s has %d employee(s)%n", department, count));
+				.forEach((department, count) -> System.out.println(" Department "+ department+" has "+" employee"+ count));
 
 	}
 
-	public void  getManager(int id) {
-
-		Optional<Integer> managerIdOptional = employee.stream().filter(empl -> empl.getEmployeeId() == id)
-				.map(Employee::getReportingManagerId).findFirst();
-
-		if (managerIdOptional.isPresent()) {
-			int managerId = managerIdOptional.get();
-			String managerName = employee.stream().filter(empl -> empl.getEmployeeId() == managerId).map(Employee::getName)
-					.findFirst().orElse(null);
-			 System.out.println("Manager Name :"+ managerName);
-		
-
-	}}
+	
 	
 	public void HighestPaidEmployeeInEachDepartment() {
 		   Map<Integer, Employee> highestPaid = employee.stream()
@@ -140,21 +128,7 @@ public class EmployeeService implements Serializable {
 		
 	}
 	
-	public void employeeJoined( String  start, String end) {
-		 DateTimeFormatter dateFormatter = DateTimeFormatter.ofPattern("d-MMM-yy", Locale.ENGLISH);
-	        LocalDate startDate = LocalDate.parse("1-MAY-81", dateFormatter);
-	        LocalDate endDate = LocalDate.parse("31-DEC-83", dateFormatter);
- 
-
-        List<Employee> employeesJoinedBetweenDates = employee.stream()
-            .filter(empl -> {
-                LocalDate joinDate = LocalDate.parse(empl.getDateOfJoining(), dateFormatter);
-                return !joinDate.isBefore(startDate) && !joinDate.isAfter(endDate);
-            })
-            .collect(Collectors.toList());
-
-        System.out.println("Employees joined between  " + startDate + " and " + endDate + ":");
-        employeesJoinedBetweenDates.forEach(System.out::println);
+	
 
 	
 
@@ -172,4 +146,4 @@ public class EmployeeService implements Serializable {
 
 	
 
-}
+
